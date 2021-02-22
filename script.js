@@ -9,9 +9,7 @@ function movie () {
   age = parseInt(age)
   day = document.getElementById('hello').value
   if ((age > 12 && age < 21) || (day === 'Tuesday' || day === 'Thursday')) {
-
     document.getElementById('answer').innerHTML = 'You get in for free'
-
   } else {
     document.getElementById('answer').innerHTML = 'You need to pay'
   }
