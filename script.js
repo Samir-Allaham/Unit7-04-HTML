@@ -8,7 +8,7 @@ function movie () {
   age = document.getElementById('input').value
   age = parseInt(age)
   day = document.getElementById('hello').value
-  if ( (age >12 && age<21) || (day=="Tuesday" || day=="Thursday") ) {
+  if ((age > 12 && age < 21) || (day === 'Tuesday' || day === 'Thursday')) {
 
     document.getElementById('answer').innerHTML = 'You get in for free'
 
